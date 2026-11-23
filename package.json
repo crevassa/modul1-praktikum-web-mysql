@@ -1,0 +1,17 @@
+{
+  "name": "praktikum-web-mysql",
+  "version": "1.0.0",
+  "description": "Modul 1 - Integrasi Node.js dan MySQL (mysql2, dotenv, connection pool, parameterized query)",
+  "main": "app.js",
+  "scripts": {
+    "migrate": "node migrate.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "mysql2": "^3.24.6"
+  }
+}
